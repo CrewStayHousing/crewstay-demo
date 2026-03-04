@@ -1,0 +1,16 @@
+{
+  "rewrites": [
+    {
+      "source": "/pm",
+      "destination": "/pm.html"
+    },
+    {
+      "source": "/landlord",
+      "destination": "/landlord.html"
+    },
+    {
+      "source": "/demo",
+      "destination": "https://crewstay-demo.vercel.app"
+    }
+  ]
+}
