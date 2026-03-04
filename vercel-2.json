@@ -1,0 +1,24 @@
+{
+  "version": 2,
+  "buildCommand": null,
+  "outputDirectory": ".",
+  "framework": null,
+  "routes": [
+    {
+      "src": "/pm",
+      "dest": "/pm.html"
+    },
+    {
+      "src": "/landlord",
+      "dest": "/landlord.html"
+    },
+    {
+      "src": "/demo",
+      "dest": "https://crewstay-demo.vercel.app"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/$1"
+    }
+  ]
+}
